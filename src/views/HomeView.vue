@@ -4,10 +4,11 @@ import axios from "axios";
 export default {
   data: function () {
     return {
-      message: "DeJaVue",
+      message: "DeJaVuetest",
       movies: [],
       newMovieParams: {},
       currentMovie: {},
+      editMovieParams: {},
     };
   },
   created: function () {
