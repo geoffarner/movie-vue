@@ -4,7 +4,7 @@ import axios from "axios";
 export default {
   data: function () {
     return {
-      message: "DeJaVuetest",
+      message: "DeJaVue",
       movies: [],
       newMovieParams: {},
       currentMovie: {},
